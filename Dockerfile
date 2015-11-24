@@ -1,6 +1,11 @@
 FROM continuumio/anaconda
 
-# RUN apt-get update && apt-get install -y \
-#       gfortran
+WORKDIR WDM
 
-# RUN conda install -c https://conda.anaconda.org/timcera wdmtoolbox
+RUN apt-get update && apt-get install -y \
+      gfortran \
+      less \
+      unzip \
+      wget
+
+RUN conda install -y -c https://conda.anaconda.org/timcera wdmtoolbox
