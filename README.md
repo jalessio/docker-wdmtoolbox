@@ -2,9 +2,8 @@
 
 Docker container for Tim Cera's wdmtoolbox
 
-http://pythonhosted.org/wdmtoolbox/
-https://bitbucket.org/timcera/wdmtoolbox
-
+* http://pythonhosted.org/wdmtoolbox/
+* https://bitbucket.org/timcera/wdmtoolbox
 
 ## Example
 
