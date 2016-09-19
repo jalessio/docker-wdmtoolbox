@@ -8,6 +8,6 @@ RUN apt-get update && apt-get install -y \
       unzip \
       wget
 
-RUN conda install -y -c https://conda.anaconda.org/timcera wdmtoolbox
+RUN pip install wdmtoolbox
 
 COPY README.md README.md
